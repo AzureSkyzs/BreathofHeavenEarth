@@ -1,6 +1,7 @@
 package me.azuresky.cultivationmod;
 
 import com.mojang.logging.LogUtils;
+import me.azuresky.cultivationmod.block.ModBlocks;
 import me.azuresky.cultivationmod.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -23,6 +24,7 @@ public class CultivationMod {
         IEventBus eventbus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventbus);
+        ModBlocks.register(eventbus);
 
         eventbus.addListener(this::setup);
 
