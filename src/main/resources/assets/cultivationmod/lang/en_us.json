@@ -2,7 +2,7 @@
 
   "item.cultivationmod.qistone": "Qi Stone",
   "item.cultivationmod.raw_qistone": "Raw Qi Stone",
-  "block.cultivationmod.qistone_ore": "Qi Stone Ore"
-
-
+  "block.cultivationmod.qistone_ore": "Qi Stone Ore",
+  "block.cultivationmod.qistone_block": "Qi Stone Block",
+  "block.cultivationmod.qistone_brick": "Qi Stone Brick"
 }
