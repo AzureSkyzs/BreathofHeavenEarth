@@ -1,7 +1,6 @@
 package me.azuresky.cultivationmod.item;
 
 import me.azuresky.cultivationmod.CultivationMod;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -13,10 +12,10 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, CultivationMod.MOD_ID);
 
     public static final RegistryObject<Item> QISTONE = ITEMS.register("qistone",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CULTIVATION_TAB_ITEMS)));
 
     public static final RegistryObject<Item> RAW_QISTONE = ITEMS.register("raw_qistone",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CULTIVATION_TAB_ITEMS)));
 
 
 

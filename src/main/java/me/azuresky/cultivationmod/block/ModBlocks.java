@@ -1,11 +1,11 @@
 package me.azuresky.cultivationmod.block;
 
 import me.azuresky.cultivationmod.CultivationMod;
+import me.azuresky.cultivationmod.item.ModCreativeModeTab;
 import me.azuresky.cultivationmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
@@ -24,17 +24,17 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties
                     .of(Material.STONE)
                     .strength(1f)
-                    .requiresCorrectToolForDrops()), CreativeModeTab.TAB_MATERIALS);
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
     public static final RegistryObject<Block> QISTONE_BLOCK = registryBlock("qistone_block",
             () -> new Block(BlockBehaviour.Properties
                     .of(Material.AMETHYST)
                     .strength(2f)
-                    .requiresCorrectToolForDrops()), CreativeModeTab.TAB_MATERIALS);
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
     public static final RegistryObject<Block> QISTONE_BRICK = registryBlock("qistone_brick",
             () -> new Block(BlockBehaviour.Properties
                     .of(Material.HEAVY_METAL)
                     .strength(2f)
-                    .requiresCorrectToolForDrops()), CreativeModeTab.TAB_MATERIALS);
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
 
 
     private static <T extends Block>RegistryObject<T> registryBlock(String name, Supplier<T> block, CreativeModeTab tab) {
