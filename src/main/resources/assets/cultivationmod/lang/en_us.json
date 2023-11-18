@@ -1,7 +1,10 @@
 {
 
   "item.cultivationmod.qistone": "Qi Stone",
+  "item.cultivationmod.qicrystal": "Qi Crystal",
   "item.cultivationmod.raw_qistone": "Raw Qi Stone",
+
+  "item.cultivationmod.elemental_tester": "Elemental Tester",
 
   "block.cultivationmod.qistone_ore": "Qi Stone Ore",
   "block.cultivationmod.qistone_block": "Qi Stone Block",

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "cultivationmod:qistone"
+  },
+  "result": "cultivationmod:qicrystal",
+  "experience": 10,
+  "cookingtime": 400
+}
