@@ -7,6 +7,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,19 +24,63 @@ public class ModBlocks {
     public static final RegistryObject<Block> QISTONE_ORE = registryBlock("qistone_ore",
             () -> new Block(BlockBehaviour.Properties
                     .of(Material.STONE)
-                    .strength(1f)
+                    .strength(5f)
                     .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
     public static final RegistryObject<Block> QISTONE_BLOCK = registryBlock("qistone_block",
             () -> new Block(BlockBehaviour.Properties
                     .of(Material.AMETHYST)
-                    .strength(2f)
+                    .strength(5f)
                     .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
     public static final RegistryObject<Block> QISTONE_BRICK = registryBlock("qistone_brick",
             () -> new Block(BlockBehaviour.Properties
-                    .of(Material.HEAVY_METAL)
-                    .strength(2f)
+                    .of(Material.STONE)
+                    .strength(5f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
+    public static final RegistryObject<Block> QISTONE_BRICK_STAIRS = registryBlock("qistone_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.QISTONE_BRICK.get().defaultBlockState(),
+                    BlockBehaviour.Properties
+                    .of(Material.STONE)
+                    .strength(5f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
+    public static final RegistryObject<Block> QISTONE_BRICK_SLAB = registryBlock("qistone_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties
+                    .of(Material.STONE)
+                    .strength(5f)
                     .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
 
+    public static final RegistryObject<Block> QISTONE_BRICK_WALL = registryBlock("qistone_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties
+                    .of(Material.STONE)
+                    .strength(5f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
+ /*   public static final RegistryObject<Block> MEGA_OAK_PLANKS = registryBlock("mega_oak_planks",
+            () -> new Block(BlockBehaviour.Properties
+                    .of(Material.WOOD)
+                    .strength(5f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);*/
+    public static final RegistryObject<Block> MEGA_OAK_BUTTON = registryBlock("mega_oak_button",
+            () -> new WoodButtonBlock(BlockBehaviour.Properties
+                    .copy(Blocks.OAK_BUTTON)
+                    .strength(5f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
+    public static final RegistryObject<Block> MEGA_OAK_PRESSURE_PLATE = registryBlock("mega_oak_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING,BlockBehaviour.Properties
+                    .copy(Blocks.OAK_PRESSURE_PLATE)
+                    .strength(5f)
+                    .requiresCorrectToolForDrops()
+                    .noCollission()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
+    public static final RegistryObject<Block> MEGA_OAK_DOOR = registryBlock("mega_oak_door",
+            () -> new DoorBlock(BlockBehaviour.Properties
+                    .of(Material.WOOD)
+                    .strength(5f)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
+    public static final RegistryObject<Block> MEGA_OAK_TRAP_DOOR = registryBlock("mega_oak_trap_door",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties
+                    .of(Material.WOOD)
+                    .strength(5f)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
 
     private static <T extends Block>RegistryObject<T> registryBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

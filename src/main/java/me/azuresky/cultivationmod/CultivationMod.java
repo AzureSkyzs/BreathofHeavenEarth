@@ -3,10 +3,13 @@ package me.azuresky.cultivationmod;
 import com.mojang.logging.LogUtils;
 import me.azuresky.cultivationmod.block.ModBlocks;
 import me.azuresky.cultivationmod.item.ModItems;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
@@ -27,10 +30,20 @@ public class CultivationMod {
         ModBlocks.register(eventbus);
 
         eventbus.addListener(this::setup);
+        eventbus.addListener(this::clientSetup);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
     }
+
+    private void clientSetup(final FMLClientSetupEvent event){
+
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.MEGA_OAK_DOOR.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.MEGA_OAK_TRAP_DOOR.get(), RenderType.translucent());
+
+    }
+
 
     private void setup(final FMLCommonSetupEvent event) {
         // Some preinit code

@@ -1,0 +1,6 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "texture": "cultivationmod:block/megaoak/mega_oak_planks"
+  }
+}

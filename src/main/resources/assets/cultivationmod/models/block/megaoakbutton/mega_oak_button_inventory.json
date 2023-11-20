@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "cultivationmod:block/megaoak/mega_oak_planks"
+  }
+}

@@ -9,6 +9,13 @@
   "block.cultivationmod.qistone_ore": "Qi Stone Ore",
   "block.cultivationmod.qistone_block": "Qi Stone Block",
   "block.cultivationmod.qistone_brick": "Qi Stone Brick",
+  "block.cultivationmod.qistone_brick_stairs": "Qi Stone Brick Stairs",
+  "block.cultivationmod.qistone_brick_slab": "Qi Stone Brick Slab",
+  "block.cultivationmod.qistone_brick_wall": "Qi Stone Brick Wall",
+  "block.cultivationmod.mega_oak_button": "Mega Oak Button",
+  "block.cultivationmod.mega_oak_pressure_plate": "Mega Oak Pressure Plate",
+  "block.cultivationmod.mega_oak_door": "Mega Oak Door",
+  "block.cultivationmod.mega_oak_trap_door": "Mega Oak Trap Door",
 
   "itemGroup.cultivationtabitems": "Cultivation Mod Items",
   "itemGroup.cultivationtabblocks": "Cultivation Mod Blocks"

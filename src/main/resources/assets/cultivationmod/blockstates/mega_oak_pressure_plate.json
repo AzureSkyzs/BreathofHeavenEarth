@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": { "model": "cultivationmod:block/megaoakpressureplate/mega_oak_pressure_plate" },
+    "powered=true": { "model": "cultivationmod:block/megaoakpressureplate/mega_oak_pressure_plate_down" }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "cultivationmod:block/qistone_brick",
+    "top": "cultivationmod:block/qistone_brick",
+    "side": "cultivationmod:block/qistone_brick"
+  }
+}
