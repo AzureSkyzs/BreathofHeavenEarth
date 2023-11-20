@@ -1,6 +1,6 @@
 {
   "variants": {
-    "": { "model": "cultivationmod:block/qistone_brick"}
+    "": { "model": "cultivationmod:block/qistone_bricks/qistone_brick"}
 
 
   }
