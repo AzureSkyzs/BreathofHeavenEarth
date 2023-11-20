@@ -75,7 +75,7 @@ public class ModBlocks {
                     .strength(5f)
                     .requiresCorrectToolForDrops()
                     .noOcclusion()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
-    public static final RegistryObject<Block> MEGA_OAK_TRAP_DOOR = registryBlock("mega_oak_trap_door",
+    public static final RegistryObject<Block> MEGA_OAK_TRAP_DOOR = registryBlock("mega_oak_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties
                     .of(Material.WOOD)
                     .strength(5f)
