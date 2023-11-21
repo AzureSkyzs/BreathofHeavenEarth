@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cultivationmod:block/megaoak/mega_oak_sapling"
+  }
+}

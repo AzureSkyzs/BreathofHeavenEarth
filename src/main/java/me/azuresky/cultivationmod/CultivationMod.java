@@ -42,6 +42,9 @@ public class CultivationMod {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.MEGA_OAK_DOOR.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.MEGA_OAK_TRAP_DOOR.get(), RenderType.translucent());
 
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.MEGA_OAK_LEAVES.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.MEGA_OAK_SAPLING.get(), RenderType.cutout());
+
     }
 
 

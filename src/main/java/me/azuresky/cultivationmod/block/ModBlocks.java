@@ -4,6 +4,7 @@ import me.azuresky.cultivationmod.CultivationMod;
 import me.azuresky.cultivationmod.block.custom.ModFlammableRotatedPillerBlock;
 import me.azuresky.cultivationmod.item.ModCreativeModeTab;
 import me.azuresky.cultivationmod.item.ModItems;
+import me.azuresky.cultivationmod.world.feature.tree.MegaOakTreeGrower;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.BlockItem;
@@ -88,6 +89,36 @@ public class ModBlocks {
 
 
     }, ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
+
+    public static final RegistryObject<Block> MEGA_OAK_SAPLING = registryBlock("mega_oak_sapling",
+            () -> new SaplingBlock(new MegaOakTreeGrower(),
+                            BlockBehaviour
+                            .Properties
+                            .copy(Blocks.OAK_SAPLING)), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
+
+
+
+    public static final RegistryObject<Block> MEGA_OAK_LEAVES = registryBlock("mega_oak_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)) {
+
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 60;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 30;
+                }
+
+
+            }, ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
 
     public static final RegistryObject<Block> STRIPPED_MEGA_OAK_LOG = registryBlock("stripped_mega_oak_log",
             () -> new ModFlammableRotatedPillerBlock(
