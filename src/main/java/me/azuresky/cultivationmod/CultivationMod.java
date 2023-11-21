@@ -47,7 +47,6 @@ public class CultivationMod {
 
     }
 
-
     private void setup(final FMLCommonSetupEvent event) {
         // Some preinit code
         LOGGER.info("HELLO FROM PREINIT");
@@ -55,3 +54,7 @@ public class CultivationMod {
     }
 
 }
+
+
+
+//For Discord Test Commit
