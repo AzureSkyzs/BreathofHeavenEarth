@@ -12,6 +12,14 @@
   "block.cultivationmod.qistone_brick_stairs": "Qi Stone Brick Stairs",
   "block.cultivationmod.qistone_brick_slab": "Qi Stone Brick Slab",
   "block.cultivationmod.qistone_brick_wall": "Qi Stone Brick Wall",
+
+  "block.cultivationmod.mega_oak_log": "Mega Oak Log",
+  "block.cultivationmod.mega_oak_planks": "Mega Oak Planks",
+  "block.cultivationmod.mega_oak_wood": "Mega Oak Wood",
+  "block.cultivationmod.stripped_mega_oak_log": "Stripped Mega Oak Log",
+  "block.cultivationmod.stripped_mega_oak_wood": "Stripped Mega Oak Wood",
+
+
   "block.cultivationmod.mega_oak_button": "Mega Oak Button",
   "block.cultivationmod.mega_oak_pressure_plate": "Mega Oak Pressure Plate",
   "block.cultivationmod.mega_oak_door": "Mega Oak Door",

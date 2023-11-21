@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+
+    "cultivationmod:mega_oak_wood",
+    "cultivationmod:mega_oak_log",
+    "cultivationmod:stripped_mega_oak_log",
+    "cultivationmod:stripped_mega_oak_wood"
+  ]
+}

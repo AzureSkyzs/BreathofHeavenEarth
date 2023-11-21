@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "cultivationmod:block/mega_oak_log/stripped_mega_oak_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "cultivationmod:block/mega_oak_log/stripped_mega_oak_wood"
+    },
+    "axis=z": {
+      "model": "cultivationmod:block/mega_oak_log/stripped_mega_oak_wood",
+      "x": 90
+    }
+  }
+}
