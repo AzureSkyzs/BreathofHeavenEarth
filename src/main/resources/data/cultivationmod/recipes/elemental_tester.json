@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "GRG",
-    "L#E",
+    "LCE",
     "GIG"
   ],
   "key": {
-    "#": {
+    "C": {
       "item": "cultivationmod:qicrystal"
     },
     "G":{
