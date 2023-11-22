@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cultivationmod:stripped_mega_oak_wood"
+    }
+  ],
+  "result": {
+    "item": "cultivationmod:mega_oak_planks",
+    "count": 4
+  }
+}
