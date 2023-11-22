@@ -151,6 +151,30 @@ public class ModBlocks {
                     .strength(5f)
                     .requiresCorrectToolForDrops()
                     .noOcclusion()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
+    public static final RegistryObject<Block> MEGA_OAK_STAIRS = registryBlock("mega_oak_stairs",
+            () -> new StairBlock(() -> ModBlocks.MEGA_OAK_PLANKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties
+                            .of(Material.WOOD)
+                            .strength(5f)
+                            .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
+
+    public static final RegistryObject<Block> MEGA_OAK_SLAB = registryBlock("mega_oak_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties
+                    .of(Material.WOOD)
+                    .strength(5f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
+
+    public static final RegistryObject<Block> MEGA_OAK_FENCE = registryBlock("mega_oak_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties
+                    .of(Material.WOOD)
+                    .strength(5f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
+    public static final RegistryObject<Block> MEGA_OAK_FENCE_GATE = registryBlock("mega_oak_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties
+                    .of(Material.WOOD)
+                    .strength(5f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
+
 
     private static <T extends Block>RegistryObject<T> registryBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

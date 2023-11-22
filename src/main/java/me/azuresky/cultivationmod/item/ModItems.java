@@ -23,6 +23,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> ELEMENTAL_TESTER = ITEMS.register("elemental_tester",
             () -> new ElementalTesterItem(new Item.Properties().tab(ModCreativeModeTab.CULTIVATION_TAB_ITEMS)));
+    public static final RegistryObject<Item> MEGA_OAK_ROD = ITEMS.register("mega_oak_rod",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CULTIVATION_TAB_ITEMS)));
 
 
 

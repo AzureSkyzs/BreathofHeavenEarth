@@ -3,6 +3,9 @@
   "values": [
     "cultivationmod:qistone_ore",
     "cultivationmod:qistone_block",
-    "cultivationmod:qistone_brick"
+    "cultivationmod:qistone_brick",
+    "cultivationmod:qistone_brick_stairs",
+    "cultivationmod:qistone_brick_slab",
+    "cultivationmod:qistone_brick_wall"
   ]
 }

@@ -3,12 +3,14 @@
   "item.cultivationmod.qistone": "Qi Stone",
   "item.cultivationmod.qicrystal": "Qi Crystal",
   "item.cultivationmod.raw_qistone": "Raw Qi Stone",
+  "item.cultivationmod.mega_oak_rod": "Mega Oak Rod",
 
   "item.cultivationmod.elemental_tester": "Elemental Tester",
 
   "block.cultivationmod.qistone_ore": "Qi Stone Ore",
   "block.cultivationmod.qistone_block": "Qi Stone Block",
   "block.cultivationmod.qistone_brick": "Qi Stone Brick",
+
   "block.cultivationmod.qistone_brick_stairs": "Qi Stone Brick Stairs",
   "block.cultivationmod.qistone_brick_slab": "Qi Stone Brick Slab",
   "block.cultivationmod.qistone_brick_wall": "Qi Stone Brick Wall",
@@ -22,6 +24,10 @@
   "block.cultivationmod.mega_oak_sapling": "Mega Oak Sapling",
 
 
+  "block.cultivationmod.mega_oak_slab": "Mega Oak Slab",
+  "block.cultivationmod.mega_oak_stairs": "Mega Oak Stairs",
+  "block.cultivationmod.mega_oak_fence": "Mega Oak Fence",
+  "block.cultivationmod.mega_oak_fence_gate": "Mega Oak Fence Gate",
   "block.cultivationmod.mega_oak_button": "Mega Oak Button",
   "block.cultivationmod.mega_oak_pressure_plate": "Mega Oak Pressure Plate",
   "block.cultivationmod.mega_oak_door": "Mega Oak Door",
