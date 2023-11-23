@@ -46,6 +46,9 @@ public class ModItems {
             () -> new HoeItem(ModTiers.QICRYSTAL,0,0,
                     new Item.Properties().tab(ModCreativeModeTab.CULTIVATION_TAB_ITEMS)));
 
+    public static final RegistryObject<Item> QICRYSTAL_DUST = ITEMS.register("qicrystal_dust",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CULTIVATION_TAB_ITEMS)));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
 
