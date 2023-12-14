@@ -5,6 +5,7 @@
   "item.cultivationmod.raw_qistone": "Raw Qi Stone",
   "item.cultivationmod.mega_oak_rod": "Mega Oak Rod",
   "item.cultivationmod.qicrystal_dust": "Qi Crystal Dust",
+  "item.cultivationmod.qigrass_fiber": "Qi Fiber",
 
   "item.cultivationmod.elemental_tester": "Elemental Tester",
   "item.cultivationmod.qicrystal_sword": "Qi Crystal Sword",
@@ -13,6 +14,10 @@
   "item.cultivationmod.qicrystal_axe": "Qi Crystal Axe",
   "item.cultivationmod.qicrystal_hoe": "Qi Crystal Hoe",
 
+  "item.cultivationmod.immortal_helmet": "Immortal Crown",
+  "item.cultivationmod.immortal_chestplate": "Immortal Robe",
+  "item.cultivationmod.immortal_leggings": "Immortal Pants" ,
+  "item.cultivationmod.immortal_boots": "Immortal Shoes",
 
   "block.cultivationmod.qistone_ore": "Qi Stone Ore",
   "block.cultivationmod.qistone_block": "Qi Stone Block",
@@ -39,6 +44,7 @@
   "block.cultivationmod.mega_oak_pressure_plate": "Mega Oak Pressure Plate",
   "block.cultivationmod.mega_oak_door": "Mega Oak Door",
   "block.cultivationmod.mega_oak_trapdoor": "Mega Oak Trap Door",
+  "block.cultivationmod.qi_grass": "Qi Grass",
 
   "itemGroup.cultivationtabitems": "Cultivation Mod Items",
   "itemGroup.cultivationtabblocks": "Cultivation Mod Blocks"

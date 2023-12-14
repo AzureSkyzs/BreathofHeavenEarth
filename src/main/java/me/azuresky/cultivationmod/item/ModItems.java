@@ -1,7 +1,10 @@
 package me.azuresky.cultivationmod.item;
 
 import me.azuresky.cultivationmod.CultivationMod;
+import me.azuresky.cultivationmod.item.custom.BeserkAxeItem;
 import me.azuresky.cultivationmod.item.custom.ElementalTesterItem;
+import me.azuresky.cultivationmod.item.custom.FreezeSwordItem;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -27,7 +30,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CULTIVATION_TAB_ITEMS)));
 
     public static final RegistryObject<Item> QICRYSTAL_SWORD = ITEMS.register("qicrystal_sword",
-            () -> new SwordItem(ModTiers.QICRYSTAL,4,3f,
+            () -> new FreezeSwordItem(ModTiers.QICRYSTAL,4,3f,
                     new Item.Properties().tab(ModCreativeModeTab.CULTIVATION_TAB_ITEMS)));
 
     public static final RegistryObject<Item> QICRYSTAL_PICKAXE = ITEMS.register("qicrystal_pickaxe",
@@ -35,7 +38,7 @@ public class ModItems {
                     new Item.Properties().tab(ModCreativeModeTab.CULTIVATION_TAB_ITEMS)));
 
     public static final RegistryObject<Item> QICRYSTAL_AXE = ITEMS.register("qicrystal_axe",
-            () -> new AxeItem(ModTiers.QICRYSTAL,5,1f,
+            () -> new BeserkAxeItem(ModTiers.QICRYSTAL,5,1f,
                     new Item.Properties().tab(ModCreativeModeTab.CULTIVATION_TAB_ITEMS)));
 
     public static final RegistryObject<Item> QICRYSTAL_SHOVEL = ITEMS.register("qicrystal_shovel",
@@ -46,8 +49,27 @@ public class ModItems {
             () -> new HoeItem(ModTiers.QICRYSTAL,0,0,
                     new Item.Properties().tab(ModCreativeModeTab.CULTIVATION_TAB_ITEMS)));
 
+    public static final RegistryObject<Item> IMMORTAL_HELMET = ITEMS.register("immortal_helmet",
+            () -> new ArmorItem(ModArmorMaterials.QICRYSTAL, EquipmentSlot.HEAD,
+                    new Item.Properties().tab(ModCreativeModeTab.CULTIVATION_TAB_ITEMS)));
+    public static final RegistryObject<Item> IMMORTAL_CHESTPLATE = ITEMS.register("immortal_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.QICRYSTAL, EquipmentSlot.CHEST,
+                    new Item.Properties().tab(ModCreativeModeTab.CULTIVATION_TAB_ITEMS)));
+    public static final RegistryObject<Item> IMMORTAL_LEGGINGS = ITEMS.register("immortal_leggings",
+            () -> new ArmorItem(ModArmorMaterials.QICRYSTAL, EquipmentSlot.LEGS,
+                    new Item.Properties().tab(ModCreativeModeTab.CULTIVATION_TAB_ITEMS)));
+    public static final RegistryObject<Item> IMMORTAL_BOOTS = ITEMS.register("immortal_boots",
+            () -> new ArmorItem(ModArmorMaterials.QICRYSTAL, EquipmentSlot.FEET,
+                    new Item.Properties().tab(ModCreativeModeTab.CULTIVATION_TAB_ITEMS)));
+
     public static final RegistryObject<Item> QICRYSTAL_DUST = ITEMS.register("qicrystal_dust",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CULTIVATION_TAB_ITEMS)));
+    public static final RegistryObject<Item> QIGRASS_FIBER = ITEMS.register("qigrass_fiber",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CULTIVATION_TAB_ITEMS)));
+
+
+
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
