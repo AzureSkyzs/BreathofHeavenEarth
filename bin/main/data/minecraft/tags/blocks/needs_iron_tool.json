@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "cultivationmod:qistone_ore",
+    "cultivationmod:qistone_block",
+    "cultivationmod:qistone_brick"
+  ]
+}

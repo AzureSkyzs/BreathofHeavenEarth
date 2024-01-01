@@ -1,0 +1,52 @@
+{
+
+  "item.cultivationmod.qistone": "Qi Stone",
+  "item.cultivationmod.qicrystal": "Qi Crystal",
+  "item.cultivationmod.raw_qistone": "Raw Qi Stone",
+  "item.cultivationmod.mega_oak_rod": "Mega Oak Rod",
+  "item.cultivationmod.qicrystal_dust": "Qi Crystal Dust",
+  "item.cultivationmod.qigrass_fiber": "Qi Fiber",
+
+  "item.cultivationmod.elemental_tester": "Elemental Tester",
+  "item.cultivationmod.qicrystal_sword": "Qi Crystal Sword",
+  "item.cultivationmod.qicrystal_pickaxe": "Qi Crystal Pickaxe",
+  "item.cultivationmod.qicrystal_shovel": "Qi Crystal Shovel",
+  "item.cultivationmod.qicrystal_axe": "Qi Crystal Axe",
+  "item.cultivationmod.qicrystal_hoe": "Qi Crystal Hoe",
+
+  "item.cultivationmod.immortal_helmet": "Immortal Crown",
+  "item.cultivationmod.immortal_chestplate": "Immortal Robe",
+  "item.cultivationmod.immortal_leggings": "Immortal Pants" ,
+  "item.cultivationmod.immortal_boots": "Immortal Shoes",
+
+  "block.cultivationmod.qistone_ore": "Qi Stone Ore",
+  "block.cultivationmod.qistone_block": "Qi Stone Block",
+  "block.cultivationmod.qistone_brick": "Qi Stone Brick",
+
+  "block.cultivationmod.qistone_brick_stairs": "Qi Stone Brick Stairs",
+  "block.cultivationmod.qistone_brick_slab": "Qi Stone Brick Slab",
+  "block.cultivationmod.qistone_brick_wall": "Qi Stone Brick Wall",
+
+  "block.cultivationmod.mega_oak_log": "Mega Oak Log",
+  "block.cultivationmod.mega_oak_planks": "Mega Oak Planks",
+  "block.cultivationmod.mega_oak_wood": "Mega Oak Wood",
+  "block.cultivationmod.stripped_mega_oak_log": "Stripped Mega Oak Log",
+  "block.cultivationmod.stripped_mega_oak_wood": "Stripped Mega Oak Wood",
+  "block.cultivationmod.mega_oak_leaves": "Mega Oak Leaves",
+  "block.cultivationmod.mega_oak_sapling": "Mega Oak Sapling",
+
+
+  "block.cultivationmod.mega_oak_slab": "Mega Oak Slab",
+  "block.cultivationmod.mega_oak_stairs": "Mega Oak Stairs",
+  "block.cultivationmod.mega_oak_fence": "Mega Oak Fence",
+  "block.cultivationmod.mega_oak_fence_gate": "Mega Oak Fence Gate",
+  "block.cultivationmod.mega_oak_button": "Mega Oak Button",
+  "block.cultivationmod.mega_oak_pressure_plate": "Mega Oak Pressure Plate",
+  "block.cultivationmod.mega_oak_door": "Mega Oak Door",
+  "block.cultivationmod.mega_oak_trapdoor": "Mega Oak Trap Door",
+  "block.cultivationmod.qi_grass": "Qi Grass",
+
+  "itemGroup.cultivationtabitems": "Cultivation Mod Items",
+  "itemGroup.cultivationtabblocks": "Cultivation Mod Blocks"
+
+}

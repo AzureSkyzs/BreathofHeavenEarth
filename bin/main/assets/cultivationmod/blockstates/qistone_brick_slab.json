@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cultivationmod:block/qistone_bricks/qistone_brick_slab"
+    },
+    "type=double": {
+      "model": "cultivationmod:block/qistone_bricks/qistone_brick"
+    },
+    "type=top": {
+      "model": "cultivationmod:block/qistone_bricks/qistone_brick_slab_top"
+    }
+  }
+}

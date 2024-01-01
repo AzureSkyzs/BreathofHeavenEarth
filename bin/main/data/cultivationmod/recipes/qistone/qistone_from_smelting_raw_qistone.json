@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "cultivationmod:raw_qistone"
+  },
+  "result": "cultivationmod:qistone",
+  "experience": 10,
+  "cookingtime": 200
+}

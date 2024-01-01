@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cultivationmod:mega_oak_planks"
+    }
+  ],
+  "result": {
+    "item": "cultivationmod:mega_oak_button"
+  }
+}
