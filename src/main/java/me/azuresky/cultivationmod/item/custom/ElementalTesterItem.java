@@ -18,7 +18,7 @@ public class ElementalTesterItem extends Item {
     @Override
     public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand interactionHand) {
         if(!player.getLevel().isClientSide) {
-            player.sendMessage(new TextComponent("This is a test Message"), player.getUUID());
+            player.sendMessage(new TextComponent("You dont have breath right now"), player.getUUID());
         }
         return super.use(level, player, interactionHand);
     }
