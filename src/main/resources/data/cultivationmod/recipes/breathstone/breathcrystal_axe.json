@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CC",
+    "CS",
+    " S"
+  ],
+  "key": {
+    "C": {
+      "item": "cultivationmod:breathcrystal"
+    },
+    "S": {
+      "item": "cultivationmod:mega_oak_rod"
+    }
+  },
+  "result": {
+    "item": "cultivationmod:breathcrystal_axe"
+  }
+}

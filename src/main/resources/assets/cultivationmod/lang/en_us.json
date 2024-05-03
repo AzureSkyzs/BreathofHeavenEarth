@@ -1,31 +1,31 @@
 {
 
-  "item.cultivationmod.qistone": "Qi Stone",
-  "item.cultivationmod.qicrystal": "Qi Crystal",
-  "item.cultivationmod.raw_qistone": "Raw Qi Stone",
+  "item.cultivationmod.breathstone": "Breath Stone",
+  "item.cultivationmod.breathcrystal": "Breath Crystal",
+  "item.cultivationmod.raw_breathstone": "Raw Breath Stone",
   "item.cultivationmod.mega_oak_rod": "Mega Oak Rod",
-  "item.cultivationmod.qicrystal_dust": "Qi Crystal Dust",
-  "item.cultivationmod.qigrass_fiber": "Qi Fiber",
+  "item.cultivationmod.breathcrystal_dust": "Breath Crystal Dust",
+  "item.cultivationmod.breathgrass_fiber": "Breath Fiber",
 
   "item.cultivationmod.elemental_tester": "Elemental Tester",
-  "item.cultivationmod.qicrystal_sword": "Qi Crystal Sword",
-  "item.cultivationmod.qicrystal_pickaxe": "Qi Crystal Pickaxe",
-  "item.cultivationmod.qicrystal_shovel": "Qi Crystal Shovel",
-  "item.cultivationmod.qicrystal_axe": "Qi Crystal Axe",
-  "item.cultivationmod.qicrystal_hoe": "Qi Crystal Hoe",
+  "item.cultivationmod.breathcrystal_sword": "Breath Crystal Sword",
+  "item.cultivationmod.breathcrystal_pickaxe": "Breath Crystal Pickaxe",
+  "item.cultivationmod.breathcrystal_shovel": "Breath Crystal Shovel",
+  "item.cultivationmod.breathcrystal_axe": "Breath Crystal Axe",
+  "item.cultivationmod.breathcrystal_hoe": "Breath Crystal Hoe",
 
   "item.cultivationmod.immortal_helmet": "Immortal Crown",
   "item.cultivationmod.immortal_chestplate": "Immortal Robe",
   "item.cultivationmod.immortal_leggings": "Immortal Pants" ,
   "item.cultivationmod.immortal_boots": "Immortal Shoes",
 
-  "block.cultivationmod.qistone_ore": "Qi Stone Ore",
-  "block.cultivationmod.qistone_block": "Qi Stone Block",
-  "block.cultivationmod.qistone_brick": "Qi Stone Brick",
+  "block.cultivationmod.breathstone_ore": "Breath Stone Ore",
+  "block.cultivationmod.breathstone_block": "Breath Stone Block",
+  "block.cultivationmod.breathstone_brick": "Breath Stone Brick",
 
-  "block.cultivationmod.qistone_brick_stairs": "Qi Stone Brick Stairs",
-  "block.cultivationmod.qistone_brick_slab": "Qi Stone Brick Slab",
-  "block.cultivationmod.qistone_brick_wall": "Qi Stone Brick Wall",
+  "block.cultivationmod.breathstone_brick_stairs": "Breath Stone Brick Stairs",
+  "block.cultivationmod.breathstone_brick_slab": "Breath Stone Brick Slab",
+  "block.cultivationmod.breathstone_brick_wall": "Breath Stone Brick Wall",
 
   "block.cultivationmod.mega_oak_log": "Mega Oak Log",
   "block.cultivationmod.mega_oak_planks": "Mega Oak Planks",
@@ -44,7 +44,7 @@
   "block.cultivationmod.mega_oak_pressure_plate": "Mega Oak Pressure Plate",
   "block.cultivationmod.mega_oak_door": "Mega Oak Door",
   "block.cultivationmod.mega_oak_trapdoor": "Mega Oak Trap Door",
-  "block.cultivationmod.qi_grass": "Qi Grass",
+  "block.cultivationmod.breath_grass": "Breath Grass",
 
   "itemGroup.cultivationtabitems": "Cultivation Mod Items",
   "itemGroup.cultivationtabblocks": "Cultivation Mod Blocks"

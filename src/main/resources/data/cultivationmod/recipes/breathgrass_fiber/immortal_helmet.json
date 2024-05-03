@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#C#",
+        "C C"
+    ],
+    "key": {
+        "#": {
+            "item": "cultivationmod:breathgrass_fiber"
+        },
+        "C": {
+            "item": "cultivationmod:breathcrystal"
+        }
+    },
+    "result": {
+        "item": "cultivationmod:immortal_helmet",
+        "count": 1
+    }
+}

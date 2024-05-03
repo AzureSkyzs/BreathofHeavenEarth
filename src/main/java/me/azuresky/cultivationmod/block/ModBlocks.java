@@ -28,34 +28,34 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, CultivationMod.MOD_ID);
 
-    public static final RegistryObject<Block> QISTONE_ORE = registryBlock("qistone_ore",
+    public static final RegistryObject<Block> BREATHSTONE_ORE = registryBlock("breathstone_ore",
             () -> new Block(BlockBehaviour.Properties
                     .of(Material.STONE)
                     .strength(5f)
                     .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
-    public static final RegistryObject<Block> QISTONE_BLOCK = registryBlock("qistone_block",
+    public static final RegistryObject<Block> BREATHSTONE_BLOCK = registryBlock("breathstone_block",
             () -> new Block(BlockBehaviour.Properties
                     .of(Material.AMETHYST)
                     .strength(5f)
                     .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
-    public static final RegistryObject<Block> QISTONE_BRICK = registryBlock("qistone_brick",
+    public static final RegistryObject<Block> BREATHSTONE_BRICK = registryBlock("breathstone_brick",
             () -> new Block(BlockBehaviour.Properties
                     .of(Material.STONE)
                     .strength(5f)
                     .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
-    public static final RegistryObject<Block> QISTONE_BRICK_STAIRS = registryBlock("qistone_brick_stairs",
-            () -> new StairBlock(() -> ModBlocks.QISTONE_BRICK.get().defaultBlockState(),
+    public static final RegistryObject<Block> BREATHSTONE_BRICK_STAIRS = registryBlock("breathstone_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.BREATHSTONE_BRICK.get().defaultBlockState(),
                     BlockBehaviour.Properties
                     .of(Material.STONE)
                     .strength(5f)
                     .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
-    public static final RegistryObject<Block> QISTONE_BRICK_SLAB = registryBlock("qistone_brick_slab",
+    public static final RegistryObject<Block> BREATHSTONE_BRICK_SLAB = registryBlock("breathstone_brick_slab",
             () -> new SlabBlock(BlockBehaviour.Properties
                     .of(Material.STONE)
                     .strength(5f)
                     .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
 
-    public static final RegistryObject<Block> QISTONE_BRICK_WALL = registryBlock("qistone_brick_wall",
+    public static final RegistryObject<Block> BREATHSTONE_BRICK_WALL = registryBlock("breathstone_brick_wall",
             () -> new WallBlock(BlockBehaviour.Properties
                     .of(Material.STONE)
                     .strength(5f)
@@ -176,12 +176,12 @@ public class ModBlocks {
                     .strength(5f)
                     .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
 
-/*    public static final RegistryObject<Block> QISTONE_TABLE = registryBlock("qistone_table",
+/*    public static final RegistryObject<Block> BREATHSTONE_TABLE = registryBlock("breathstone_table",
             () -> new Block(BlockBehaviour.Properties
                     .of(Material.WOOD)
                     .strength(5f))
             , ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);*/
-public static final RegistryObject<Block> QI_GRASS = registryBlock("qi_grass",
+public static final RegistryObject<Block> BREATH_GRASS = registryBlock("breath_grass",
         () -> new FlowerBlock(MobEffects.HEAL,8, BlockBehaviour.Properties
                 .copy(Blocks.GRASS)
                 .noOcclusion()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);

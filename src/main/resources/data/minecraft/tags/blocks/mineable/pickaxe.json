@@ -1,11 +1,11 @@
 {
   "replace": false,
   "values": [
-    "cultivationmod:qistone_ore",
-    "cultivationmod:qistone_block",
-    "cultivationmod:qistone_brick",
-    "cultivationmod:qistone_brick_stairs",
-    "cultivationmod:qistone_brick_slab",
-    "cultivationmod:qistone_brick_wall"
+    "cultivationmod:breathstone_ore",
+    "cultivationmod:breathstone_block",
+    "cultivationmod:breathstone_brick",
+    "cultivationmod:breathstone_brick_stairs",
+    "cultivationmod:breathstone_brick_slab",
+    "cultivationmod:breathstone_brick_wall"
   ]
 }

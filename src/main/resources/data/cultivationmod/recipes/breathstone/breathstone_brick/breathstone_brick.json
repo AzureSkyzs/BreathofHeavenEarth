@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "cultivationmod:breathstone_block"
+    }
+  },
+  "result": {
+    "item": "cultivationmod:breathstone_brick"
+  }
+}
