@@ -33,6 +33,11 @@ public class ModBlocks {
                     .of(Material.STONE)
                     .strength(5f)
                     .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
+    public static final RegistryObject<Block> DEEPSLATE_BREATHSTONE_ORE = registryBlock("deepslate_breathstone_ore",
+            () -> new Block(BlockBehaviour.Properties
+                    .of(Material.STONE)
+                    .strength(5f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
     public static final RegistryObject<Block> BREATHSTONE_BLOCK = registryBlock("breathstone_block",
             () -> new Block(BlockBehaviour.Properties
                     .of(Material.AMETHYST)
@@ -176,11 +181,11 @@ public class ModBlocks {
                     .strength(5f)
                     .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
 
-/*    public static final RegistryObject<Block> BREATHSTONE_TABLE = registryBlock("breathstone_table",
+   public static final RegistryObject<Block> BREATHSTONE_TABLE = registryBlock("breathstone_table",
             () -> new Block(BlockBehaviour.Properties
                     .of(Material.WOOD)
                     .strength(5f))
-            , ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);*/
+            , ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
 public static final RegistryObject<Block> BREATH_GRASS = registryBlock("breath_grass",
         () -> new FlowerBlock(MobEffects.HEAL,8, BlockBehaviour.Properties
                 .copy(Blocks.GRASS)
