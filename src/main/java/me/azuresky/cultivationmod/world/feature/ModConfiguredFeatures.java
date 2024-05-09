@@ -3,15 +3,16 @@ package me.azuresky.cultivationmod.world.feature;
 import me.azuresky.cultivationmod.block.ModBlocks;
 import net.minecraft.core.Holder;
 import net.minecraft.data.worldgen.features.FeatureUtils;
+import net.minecraft.data.worldgen.features.OreFeatures;
 import net.minecraft.data.worldgen.features.TreeFeatures;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.util.valueproviders.ConstantInt;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
+import net.minecraft.world.level.levelgen.feature.OreFeature;
 import net.minecraft.world.level.levelgen.feature.WeightedPlacedFeature;
-import net.minecraft.world.level.levelgen.feature.configurations.RandomFeatureConfiguration;
-import net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.*;
 import net.minecraft.world.level.levelgen.feature.featuresize.TwoLayersFeatureSize;
 import net.minecraft.world.level.levelgen.feature.foliageplacers.AcaciaFoliagePlacer;
 import net.minecraft.world.level.levelgen.feature.foliageplacers.BlobFoliagePlacer;
@@ -39,4 +40,22 @@ public class ModConfiguredFeatures {
             FeatureUtils.register("mega_oak_spawn", Feature.RANDOM_SELECTOR,
                     new RandomFeatureConfiguration(List.of(new WeightedPlacedFeature(MEGA_OAK_CHECKED,
                             0.5F)), MEGA_OAK_CHECKED));
+
+    public static final List<OreConfiguration.TargetBlockState> OVERWORLD_BREATHSTONE_ORES = List.of(
+        OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.BREATHSTONE_ORE.get().defaultBlockState()),
+        OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_BREATHSTONE_ORE.get().defaultBlockState())
+    );
+
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> BREATHSTONE_ORE = FeatureUtils.register("breathstone_ore",
+             Feature.ORE, new OreConfiguration(OVERWORLD_BREATHSTONE_ORES, 9)
+    );
+
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> PATCH_BREATH_GRASS =
+            FeatureUtils.register("patch_breath_grass", Feature.RANDOM_PATCH, grassPatch(BlockStateProvider.simple(Blocks.GRASS), 32)
+    );
+
+    public static RandomPatchConfiguration grassPatch(BlockStateProvider blockStateProvider, int size) {
+        return FeatureUtils.simpleRandomPatchConfiguration(size, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(blockStateProvider)));
+    }
+
 }

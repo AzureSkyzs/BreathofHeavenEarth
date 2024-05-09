@@ -23,6 +23,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
+import java.util.function.ToIntFunction;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
@@ -32,39 +33,46 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties
                     .of(Material.STONE)
                     .strength(5f)
-                    .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
+                    .requiresCorrectToolForDrops()
+                    .lightLevel(value -> 7)), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
     public static final RegistryObject<Block> DEEPSLATE_BREATHSTONE_ORE = registryBlock("deepslate_breathstone_ore",
             () -> new Block(BlockBehaviour.Properties
                     .of(Material.STONE)
                     .strength(5f)
-                    .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
+                    .requiresCorrectToolForDrops()
+                    .lightLevel(value -> 7)), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
     public static final RegistryObject<Block> BREATHSTONE_BLOCK = registryBlock("breathstone_block",
             () -> new Block(BlockBehaviour.Properties
                     .of(Material.AMETHYST)
                     .strength(5f)
-                    .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
+                    .requiresCorrectToolForDrops()
+                    .lightLevel(value -> 14)), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
     public static final RegistryObject<Block> BREATHSTONE_BRICK = registryBlock("breathstone_brick",
             () -> new Block(BlockBehaviour.Properties
                     .of(Material.STONE)
                     .strength(5f)
-                    .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
+                    .requiresCorrectToolForDrops()
+                    .lightLevel(value -> 10)), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
     public static final RegistryObject<Block> BREATHSTONE_BRICK_STAIRS = registryBlock("breathstone_brick_stairs",
             () -> new StairBlock(() -> ModBlocks.BREATHSTONE_BRICK.get().defaultBlockState(),
                     BlockBehaviour.Properties
                     .of(Material.STONE)
                     .strength(5f)
-                    .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
+                    .requiresCorrectToolForDrops()
+                    .lightLevel(value -> 10)), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
     public static final RegistryObject<Block> BREATHSTONE_BRICK_SLAB = registryBlock("breathstone_brick_slab",
             () -> new SlabBlock(BlockBehaviour.Properties
                     .of(Material.STONE)
                     .strength(5f)
-                    .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
+                    .requiresCorrectToolForDrops()
+                    .lightLevel(value -> 10)), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
 
     public static final RegistryObject<Block> BREATHSTONE_BRICK_WALL = registryBlock("breathstone_brick_wall",
             () -> new WallBlock(BlockBehaviour.Properties
                     .of(Material.STONE)
                     .strength(5f)
-                    .requiresCorrectToolForDrops()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
+                    .requiresCorrectToolForDrops()
+                    .lightLevel(value -> 10)), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
     public static final RegistryObject<Block> MEGA_OAK_LOG = registryBlock("mega_oak_log",
             () -> new ModFlammableRotatedPillerBlock(
                     BlockBehaviour.Properties
@@ -105,7 +113,8 @@ public class ModBlocks {
 
 
     public static final RegistryObject<Block> MEGA_OAK_LEAVES = registryBlock("mega_oak_leaves",
-            () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)) {
+            () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)
+                    .lightLevel(value -> 10)) {
 
                 @Override
                 public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
@@ -189,7 +198,8 @@ public class ModBlocks {
 public static final RegistryObject<Block> BREATH_GRASS = registryBlock("breath_grass",
         () -> new FlowerBlock(MobEffects.HEAL,8, BlockBehaviour.Properties
                 .copy(Blocks.GRASS)
-                .noOcclusion()), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
+                .noOcclusion()
+                .lightLevel(value -> 10)), ModCreativeModeTab.CULTIVATION_TAB_BLOCKS);
 
 
 
