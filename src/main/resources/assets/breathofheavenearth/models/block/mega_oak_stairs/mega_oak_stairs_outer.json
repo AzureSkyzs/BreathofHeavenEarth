@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "breathofheavenearth:block/megaoak/mega_oak_planks",
+    "top": "breathofheavenearth:block/megaoak/mega_oak_planks",
+    "side": "breathofheavenearth:block/megaoak/mega_oak_planks"
+  }
+}

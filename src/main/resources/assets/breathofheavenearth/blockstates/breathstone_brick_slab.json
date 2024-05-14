@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "breathofheavenearth:block/breathstone_bricks/breathstone_brick_slab"
+    },
+    "type=double": {
+      "model": "breathofheavenearth:block/breathstone_bricks/breathstone_brick"
+    },
+    "type=top": {
+      "model": "breathofheavenearth:block/breathstone_bricks/breathstone_brick_slab_top"
+    }
+  }
+}

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "cultivationmod:block/breathstone_brick",
-    "top": "cultivationmod:block/breathstone_brick",
-    "side": "cultivationmod:block/breathstone_brick"
-  }
-}

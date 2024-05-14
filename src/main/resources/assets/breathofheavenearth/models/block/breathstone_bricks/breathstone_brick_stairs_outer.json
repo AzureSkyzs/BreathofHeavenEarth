@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "breathofheavenearth:block/breathstone_brick",
+    "top": "breathofheavenearth:block/breathstone_brick",
+    "side": "breathofheavenearth:block/breathstone_brick"
+  }
+}

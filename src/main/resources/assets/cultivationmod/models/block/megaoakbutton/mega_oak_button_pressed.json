@@ -1,6 +1,0 @@
-{
-  "parent": "block/button_pressed",
-  "textures": {
-    "texture": "cultivationmod:block/megaoak/mega_oak_planks"
-  }
-}

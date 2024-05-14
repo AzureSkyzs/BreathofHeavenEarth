@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "cultivationmod:block/mega_oak_planks",
-    "top": "cultivationmod:block/megaoak/mega_oak_planks",
-    "side": "cultivationmod:block/megaoak/mega_oak_planks"
-  }
-}

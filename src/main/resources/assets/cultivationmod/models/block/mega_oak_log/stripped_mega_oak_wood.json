@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_column",
-  "textures": {
-    "end": "cultivationmod:block/megaoak/stripped_mega_oak_log_top",
-    "side": "cultivationmod:block/megaoak/stripped_mega_oak_log"
-  }
-}

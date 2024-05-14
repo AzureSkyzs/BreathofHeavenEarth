@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": { "model": "breathofheavenearth:block/megaoakpressureplate/mega_oak_pressure_plate" },
+    "powered=true": { "model": "breathofheavenearth:block/megaoakpressureplate/mega_oak_pressure_plate_down" }
+  }
+}

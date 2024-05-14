@@ -1,0 +1,53 @@
+{
+
+  "item.breathofheavenearth.breathstone": "Breath Stone",
+  "item.breathofheavenearth.breathcrystal": "Breath Crystal",
+  "item.breathofheavenearth.raw_breathstone": "Raw Breath Stone",
+  "item.breathofheavenearth.mega_oak_rod": "Mega Oak Rod",
+  "item.breathofheavenearth.breathcrystal_dust": "Breath Crystal Dust",
+  "item.breathofheavenearth.breathgrass_fiber": "Breath Fiber",
+
+  "item.breathofheavenearth.elemental_tester": "Elemental Tester",
+  "item.breathofheavenearth.breathcrystal_sword": "Breath Crystal Sword",
+  "item.breathofheavenearth.breathcrystal_pickaxe": "Breath Crystal Pickaxe",
+  "item.breathofheavenearth.breathcrystal_shovel": "Breath Crystal Shovel",
+  "item.breathofheavenearth.breathcrystal_axe": "Breath Crystal Axe",
+  "item.breathofheavenearth.breathcrystal_hoe": "Breath Crystal Hoe",
+
+  "item.breathofheavenearth.immortal_helmet": "Immortal Crown",
+  "item.breathofheavenearth.immortal_chestplate": "Immortal Robe",
+  "item.breathofheavenearth.immortal_leggings": "Immortal Pants" ,
+  "item.breathofheavenearth.immortal_boots": "Immortal Shoes",
+
+  "block.breathofheavenearth.breathstone_ore": "Breath Stone Ore",
+  "block.breathofheavenearth.deepslate_breathstone_ore": "Deepslate Breath Stone Ore",
+  "block.breathofheavenearth.breathstone_block": "Breath Stone Block",
+  "block.breathofheavenearth.breathstone_brick": "Breath Stone Brick",
+
+  "block.breathofheavenearth.breathstone_brick_stairs": "Breath Stone Brick Stairs",
+  "block.breathofheavenearth.breathstone_brick_slab": "Breath Stone Brick Slab",
+  "block.breathofheavenearth.breathstone_brick_wall": "Breath Stone Brick Wall",
+
+  "block.breathofheavenearth.mega_oak_log": "Mega Oak Log",
+  "block.breathofheavenearth.mega_oak_planks": "Mega Oak Planks",
+  "block.breathofheavenearth.mega_oak_wood": "Mega Oak Wood",
+  "block.breathofheavenearth.stripped_mega_oak_log": "Stripped Mega Oak Log",
+  "block.breathofheavenearth.stripped_mega_oak_wood": "Stripped Mega Oak Wood",
+  "block.breathofheavenearth.mega_oak_leaves": "Mega Oak Leaves",
+  "block.breathofheavenearth.mega_oak_sapling": "Mega Oak Sapling",
+
+
+  "block.breathofheavenearth.mega_oak_slab": "Mega Oak Slab",
+  "block.breathofheavenearth.mega_oak_stairs": "Mega Oak Stairs",
+  "block.breathofheavenearth.mega_oak_fence": "Mega Oak Fence",
+  "block.breathofheavenearth.mega_oak_fence_gate": "Mega Oak Fence Gate",
+  "block.breathofheavenearth.mega_oak_button": "Mega Oak Button",
+  "block.breathofheavenearth.mega_oak_pressure_plate": "Mega Oak Pressure Plate",
+  "block.breathofheavenearth.mega_oak_door": "Mega Oak Door",
+  "block.breathofheavenearth.mega_oak_trapdoor": "Mega Oak Trap Door",
+  "block.breathofheavenearth.breath_grass": "Breath Grass",
+
+  "itemGroup.cultivationtabitems": "Cultivation Mod Items",
+  "itemGroup.cultivationtabblocks": "Cultivation Mod Blocks"
+
+}

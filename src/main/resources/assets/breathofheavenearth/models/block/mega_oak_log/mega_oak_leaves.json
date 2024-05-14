@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "breathofheavenearth:block/megaoak/mega_oak_leaves"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "breathofheavenearth:block/megaoak/mega_oak_planks"
+  }
+}

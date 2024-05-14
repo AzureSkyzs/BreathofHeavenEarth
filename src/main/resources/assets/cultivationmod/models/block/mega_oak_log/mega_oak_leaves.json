@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/leaves",
-  "textures": {
-    "all": "cultivationmod:block/megaoak/mega_oak_leaves"
-  }
-}

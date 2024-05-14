@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "breathofheavenearth:block/megaoak/stripped_mega_oak_log_top",
+    "side": "breathofheavenearth:block/megaoak/stripped_mega_oak_log"
+  }
+}

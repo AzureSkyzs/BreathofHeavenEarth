@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "breathofheavenearth:block/megaoak/mega_oak_planks"
+  }
+}

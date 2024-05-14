@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "breathofheavenearth:block/mega_oak_slab/mega_oak_slab"
+    },
+    "type=double": {
+      "model": "breathofheavenearth:block/mega_oak_log/mega_oak_planks"
+    },
+    "type=top": {
+      "model": "breathofheavenearth:block/mega_oak_slab/mega_oak_slab_top"
+    }
+  }
+}

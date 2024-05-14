@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "breathofheavenearth:block/megaoak/mega_oak_sapling"
+  }
+}

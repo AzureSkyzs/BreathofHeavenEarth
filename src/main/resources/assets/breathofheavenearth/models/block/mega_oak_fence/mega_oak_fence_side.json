@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "breathofheavenearth:block/megaoak/mega_oak_planks"
+  }
+}
