@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "cultivationmod:stripped_mega_oak_log"
+      "item": "breathofheavenearth:stripped_mega_oak_log"
     }
   },
   "result": {
-    "item": "cultivationmod:stripped_mega_oak_wood"
+    "item": "breathofheavenearth:stripped_mega_oak_wood"
   }
 }

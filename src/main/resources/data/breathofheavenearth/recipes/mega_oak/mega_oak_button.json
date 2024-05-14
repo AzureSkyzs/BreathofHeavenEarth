@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "cultivationmod:mega_oak_planks"
+      "item": "breathofheavenearth:mega_oak_planks"
     }
   ],
   "result": {
-    "item": "cultivationmod:mega_oak_button"
+    "item": "breathofheavenearth:mega_oak_button"
   }
 }

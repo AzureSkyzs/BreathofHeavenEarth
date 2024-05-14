@@ -7,7 +7,7 @@
   ],
   "key": {
     "C": {
-      "item": "cultivationmod:breathcrystal"
+      "item": "breathofheavenearth:breathcrystal"
     },
     "G":{
       "item": "minecraft:gold_ingot"
@@ -31,6 +31,6 @@
     }
   },
   "result": {
-    "item": "cultivationmod:elemental_tester"
+    "item": "breathofheavenearth:elemental_tester"
   }
 }

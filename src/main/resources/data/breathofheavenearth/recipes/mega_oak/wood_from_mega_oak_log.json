@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "cultivationmod:mega_oak_log"
+      "item": "breathofheavenearth:mega_oak_log"
     }
   },
   "result": {
-    "item": "cultivationmod:mega_oak_wood"
+    "item": "breathofheavenearth:mega_oak_wood"
   }
 }

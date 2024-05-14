@@ -6,11 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "cultivationmod:breathstone_brick"
+      "item": "breathofheavenearth:breathstone_brick"
     }
   },
   "result": {
-    "item": "cultivationmod:breathstone_brick_wall",
+    "item": "breathofheavenearth:breathstone_brick_wall",
     "count": 6
   }
 }

@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "cultivationmod:mega_oak_planks"
+      "item": "breathofheavenearth:mega_oak_planks"
     }
   },
   "result": {
-    "item": "cultivationmod:mega_oak_rod",
+    "item": "breathofheavenearth:mega_oak_rod",
     "count": 4
   }
 }

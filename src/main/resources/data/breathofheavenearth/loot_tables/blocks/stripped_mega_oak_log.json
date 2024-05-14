@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cultivationmod:stripped_mega_oak_log"
+          "name": "breathofheavenearth:stripped_mega_oak_log"
         }
       ],
       "conditions": [

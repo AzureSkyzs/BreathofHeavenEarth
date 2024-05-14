@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "cultivationmod:breathstone"
+      "item": "breathofheavenearth:breathstone"
     }
   },
   "result": {
-    "item": "cultivationmod:breathstone_block"
+    "item": "breathofheavenearth:breathstone_block"
   }
 }

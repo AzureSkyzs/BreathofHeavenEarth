@@ -7,13 +7,13 @@
   ],
   "key": {
     "C": {
-      "item": "cultivationmod:breathcrystal"
+      "item": "breathofheavenearth:breathcrystal"
     },
     "S": {
-      "item": "cultivationmod:mega_oak_rod"
+      "item": "breathofheavenearth:mega_oak_rod"
     }
   },
   "result": {
-    "item": "cultivationmod:breathcrystal_pickaxe"
+    "item": "breathofheavenearth:breathcrystal_pickaxe"
   }
 }

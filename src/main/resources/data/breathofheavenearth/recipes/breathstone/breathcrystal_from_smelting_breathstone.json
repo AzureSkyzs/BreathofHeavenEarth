@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "cultivationmod:breathstone"
+    "item": "breathofheavenearth:breathstone"
   },
-  "result": "cultivationmod:breathcrystal",
+  "result": "breathofheavenearth:breathcrystal",
   "experience": 10,
   "cookingtime": 400
 }

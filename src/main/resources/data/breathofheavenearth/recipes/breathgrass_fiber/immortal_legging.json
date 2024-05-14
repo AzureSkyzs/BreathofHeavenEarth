@@ -7,14 +7,14 @@
     ],
     "key": {
         "C": {
-            "item": "cultivationmod:breathgrass_fiber"
+            "item": "breathofheavenearth:breathgrass_fiber"
         },
         "#": {
-            "item": "cultivationmod:breathcrystal"
+            "item": "breathofheavenearth:breathcrystal"
         }
     },
     "result": {
-        "item": "cultivationmod:immortal_legging",
+        "item": "breathofheavenearth:immortal_legging",
         "count": 1
     }
 }

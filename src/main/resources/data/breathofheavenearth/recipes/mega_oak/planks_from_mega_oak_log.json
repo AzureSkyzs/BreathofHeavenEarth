@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "cultivationmod:mega_oak_log"
+      "item": "breathofheavenearth:mega_oak_log"
     }
   ],
   "result": {
-    "item": "cultivationmod:mega_oak_planks",
+    "item": "breathofheavenearth:mega_oak_planks",
     "count": 4
   }
 }

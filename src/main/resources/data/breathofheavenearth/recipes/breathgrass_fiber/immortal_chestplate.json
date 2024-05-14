@@ -7,14 +7,14 @@
     ],
     "key": {
         "C": {
-            "item": "cultivationmod:breathcrystal"
+            "item": "breathofheavenearth:breathcrystal"
         },
         "#": {
-            "item": "cultivationmod:breathgrass_fiber"
+            "item": "breathofheavenearth:breathgrass_fiber"
         }
     },
     "result": {
-        "item": "cultivationmod:immortal_chestplate",
+        "item": "breathofheavenearth:immortal_chestplate",
         "count": 1
     }
 }

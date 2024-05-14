@@ -6,14 +6,14 @@
   ],
   "key": {
     "#": {
-      "item": "cultivationmod:mega_oak_planks"
+      "item": "breathofheavenearth:mega_oak_planks"
     },
     "S": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "cultivationmod:mega_oak_fence",
+    "item": "breathofheavenearth:mega_oak_fence",
     "count": 4
   }
 }

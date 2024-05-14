@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "cultivationmod:breathstone_block"
+      "item": "breathofheavenearth:breathstone_block"
     }
   ],
   "result": {
-    "item": "cultivationmod:breathstone",
+    "item": "breathofheavenearth:breathstone",
     "count": 9
   }
 }

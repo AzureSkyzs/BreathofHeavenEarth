@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "cultivationmod:breathstone_ore",
-    "cultivationmod:deepslate_breathstone_ore",
-    "cultivationmod:breathstone_block",
-    "cultivationmod:breathstone_brick"
+    "breathofheavenearth:breathstone_ore",
+    "breathofheavenearth:deepslate_breathstone_ore",
+    "breathofheavenearth:breathstone_block",
+    "breathofheavenearth:breathstone_brick"
   ]
 }

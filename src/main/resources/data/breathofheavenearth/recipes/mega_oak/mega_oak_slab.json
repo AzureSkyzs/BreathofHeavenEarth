@@ -5,11 +5,11 @@
   ],
   "key": {
     "#": {
-      "item": "cultivationmod:mega_oak_planks"
+      "item": "breathofheavenearth:mega_oak_planks"
     }
   },
   "result": {
-    "item": "cultivationmod:mega_oak_slab",
+    "item": "breathofheavenearth:mega_oak_slab",
     "count": 6
   }
 }

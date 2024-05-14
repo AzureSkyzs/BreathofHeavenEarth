@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "breathofheavenearth:raw_breathstone"
+    },
+    "title": "Long journey",
+    "description": "You have started your long journey",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "background": "breathofheavenearth:textures/block/megaoak/mega_oak_planks.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+          "items": [
+            "breathofheavenearth:raw_breathstone"
+          ]
+
+          }
+        ]
+      }
+    }
+  }
+}

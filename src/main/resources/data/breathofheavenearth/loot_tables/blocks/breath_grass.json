@@ -20,7 +20,7 @@
                   }
                 }
               ],
-              "name": "cultivationmod:breath_grass"
+              "name": "breathofheavenearth:breath_grass"
             },
             {
               "type": "minecraft:item",
@@ -47,7 +47,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "cultivationmod:breathgrass_fiber"
+              "name": "breathofheavenearth:breathgrass_fiber"
 
             }
           ]

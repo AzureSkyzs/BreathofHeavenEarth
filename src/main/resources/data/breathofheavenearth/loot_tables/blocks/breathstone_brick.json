@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cultivationmod:breathstone_brick"
+          "name": "breathofheavenearth:breathstone_brick"
         }
       ],
       "conditions": [

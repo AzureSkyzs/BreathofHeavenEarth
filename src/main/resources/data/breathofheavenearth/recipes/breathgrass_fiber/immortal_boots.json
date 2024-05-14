@@ -6,14 +6,14 @@
     ],
     "key": {
         "#": {
-            "item": "cultivationmod:breathgrass_fiber"
+            "item": "breathofheavenearth:breathgrass_fiber"
         },
         "C": {
-            "item": "cultivationmod:breathcrystal"
+            "item": "breathofheavenearth:breathcrystal"
         }
     },
     "result": {
-        "item": "cultivationmod:immortal_boots",
+        "item": "breathofheavenearth:immortal_boots",
         "count": 1
     }
 }

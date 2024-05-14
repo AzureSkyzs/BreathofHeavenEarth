@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cultivationmod:mega_oak_fence_gate"
+          "name": "breathofheavenearth:mega_oak_fence_gate"
         }
       ],
       "conditions": [

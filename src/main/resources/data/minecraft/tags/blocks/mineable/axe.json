@@ -1,13 +1,13 @@
 {
   "replace": false,
   "values": [
-    "cultivationmod:mega_oak_stairs",
-    "cultivationmod:mega_oak_slab",
-    "cultivationmod:mega_oak_fence",
-    "cultivationmod:mega_oak_fence_gate",
-    "cultivationmod:mega_oak_trapdoor",
-    "cultivationmod:mega_oak_door",
-    "cultivationmod:mega_oak_pressure_plate",
-    "cultivationmod:mega_oak_button"
+    "breathofheavenearth:mega_oak_stairs",
+    "breathofheavenearth:mega_oak_slab",
+    "breathofheavenearth:mega_oak_fence",
+    "breathofheavenearth:mega_oak_fence_gate",
+    "breathofheavenearth:mega_oak_trapdoor",
+    "breathofheavenearth:mega_oak_door",
+    "breathofheavenearth:mega_oak_pressure_plate",
+    "breathofheavenearth:mega_oak_button"
   ]
 }
