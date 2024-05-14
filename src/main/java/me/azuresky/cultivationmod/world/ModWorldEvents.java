@@ -1,7 +1,7 @@
 package me.azuresky.cultivationmod.world;
 
 import me.azuresky.cultivationmod.CultivationMod;
-import me.azuresky.cultivationmod.world.gen.ModGrassGeneration;
+import me.azuresky.cultivationmod.world.gen.ModFlowerGeneration;
 import me.azuresky.cultivationmod.world.gen.ModOreGeneration;
 import me.azuresky.cultivationmod.world.gen.ModTreeGeneration;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
@@ -14,7 +14,7 @@ public class ModWorldEvents {
     public static void biomeLoadingEvent(final BiomeLoadingEvent event) {
         ModOreGeneration.generateOres(event);
 
-        ModGrassGeneration.generateGrass(event);
+        ModFlowerGeneration.generateGrass(event);
         ModTreeGeneration.generateTrees(event);
     }
 }

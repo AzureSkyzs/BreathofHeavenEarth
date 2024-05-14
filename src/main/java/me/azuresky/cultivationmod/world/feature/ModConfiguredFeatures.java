@@ -50,12 +50,10 @@ public class ModConfiguredFeatures {
              Feature.ORE, new OreConfiguration(OVERWORLD_BREATHSTONE_ORES, 9)
     );
 
-    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> PATCH_BREATH_GRASS =
-            FeatureUtils.register("patch_breath_grass", Feature.RANDOM_PATCH, grassPatch(BlockStateProvider.simple(Blocks.GRASS), 32)
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> FLOWER_BREATH_GRASS =
+            FeatureUtils.register("flower_breath_grass", Feature.FLOWER,
+                    new RandomPatchConfiguration(50,3,2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.BREATH_GRASS.get()))))
     );
-
-    public static RandomPatchConfiguration grassPatch(BlockStateProvider blockStateProvider, int size) {
-        return FeatureUtils.simpleRandomPatchConfiguration(size, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(blockStateProvider)));
-    }
 
 }

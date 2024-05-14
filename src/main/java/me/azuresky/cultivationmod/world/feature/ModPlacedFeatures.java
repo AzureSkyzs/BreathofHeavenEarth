@@ -5,9 +5,7 @@ import net.minecraft.data.worldgen.features.VegetationFeatures;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.data.worldgen.placement.VegetationPlacements;
 import net.minecraft.world.level.levelgen.VerticalAnchor;
-import net.minecraft.world.level.levelgen.placement.HeightRangePlacement;
-import net.minecraft.world.level.levelgen.placement.HeightmapPlacement;
-import net.minecraft.world.level.levelgen.placement.PlacedFeature;
+import net.minecraft.world.level.levelgen.placement.*;
 
 import static net.minecraft.data.worldgen.placement.VegetationPlacements.worldSurfaceSquaredWithCount;
 
@@ -20,7 +18,8 @@ public class ModPlacedFeatures {
             ModConfiguredFeatures.BREATHSTONE_ORE, ModOrePlacement.commonOrePlacement(7,
                     HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80))));
 
-    public static final Holder<PlacedFeature> PATCH_BREATH_GRASS_PLACED = PlacementUtils.register("patch_breath_grass_placed",
-            ModConfiguredFeatures.PATCH_BREATH_GRASS, worldSurfaceSquaredWithCount(5)
+    public static final Holder<PlacedFeature> FLOWER_BREATH_GRASS_PLACED = PlacementUtils.register("flower_breath_grass_placed",
+            ModConfiguredFeatures.FLOWER_BREATH_GRASS, RarityFilter.onAverageOnceEvery(16),
+            InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()
     );
 }
