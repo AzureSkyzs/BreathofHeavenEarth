@@ -14,6 +14,10 @@
   "item.breathofheavenearth.breathcrystal_axe": "Breath Crystal Axe",
   "item.breathofheavenearth.breathcrystal_hoe": "Breath Crystal Hoe",
 
+  "item.breathofheavenearth.soul_evil": "Evil Soul",
+  "item.breathofheavenearth.soul_neutral": "Neutral Soul",
+  "item.breathofheavenearth.soul_good": "Good Soul",
+
   "item.breathofheavenearth.immortal_helmet": "Immortal Crown",
   "item.breathofheavenearth.immortal_chestplate": "Immortal Robe",
   "item.breathofheavenearth.immortal_leggings": "Immortal Pants" ,
@@ -47,7 +51,7 @@
   "block.breathofheavenearth.mega_oak_trapdoor": "Mega Oak Trap Door",
   "block.breathofheavenearth.breath_grass": "Breath Grass",
 
-  "itemGroup.cultivationtabitems": "Cultivation Mod Items",
-  "itemGroup.cultivationtabblocks": "Cultivation Mod Blocks"
+  "itemGroup.breathtabitems": "Breath of H&E Items",
+  "itemGroup.breathtabblocks": "Breath of H&E Blocks"
 
 }

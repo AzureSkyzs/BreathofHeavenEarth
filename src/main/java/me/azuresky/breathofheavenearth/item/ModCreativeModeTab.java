@@ -6,14 +6,14 @@ import net.minecraft.world.item.ItemStack;
 
 public class ModCreativeModeTab {
 
-    public static final CreativeModeTab CULTIVATION_TAB_ITEMS = new CreativeModeTab("cultivationtabitems") {
+    public static final CreativeModeTab BREATH_TAB_ITEMS = new CreativeModeTab("breathtabitems") {
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(ModItems.BREATHSTONE.get());
         }
     };
 
-    public static final CreativeModeTab CULTIVATION_TAB_BLOCKS = new CreativeModeTab("cultivationtabblocks") {
+    public static final CreativeModeTab BREATH_TAB_BLOCKS = new CreativeModeTab("breathtabblocks") {
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(ModBlocks.BREATHSTONE_ORE.get());

@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "breathofheavenearth:breath_grass"
+    },
+    "title": "Glowing Plant Fiber",
+    "description": "You broke breath grass maybe you can use it for something",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "background": "breathofheavenearth:textures/block/megaoak/mega_oak_planks.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+          "items": [
+            "breathofheavenearth:breathgrass_fiber"
+      }
+    }
+  }
+}
